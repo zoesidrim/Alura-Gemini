@@ -117,8 +117,6 @@ footer {
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
     font-size: 1rem; /* Tamanho da fonte */
-    position: absolute; /* Posiciona o rodapé */
-    bottom: 0;  /*Alinha ao fundo da página */
 }
 
 @media (max-width: 768px) {
@@ -142,8 +140,15 @@ footer {
     }
 }
 
+@media (max-width: 600px){
+    .resultados-pesquisa {
+        width: 90%; /* Largura da caixa de resultados em telas pequenas */
+        height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+    }
+}
+
 /* Responsividade para celulares */
-@media (max-width: 480px) {
+@media (max-width: 480px) {    
 
     h1 {
         font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
@@ -172,3 +177,12 @@ footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
 }
+
+@media (max-width: 380px){
+    footer p {
+        padding: 0 1rem;
+    }
+}
+
+
+
