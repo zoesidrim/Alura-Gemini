@@ -73,9 +73,9 @@ section button:hover {
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 40vh; /* Altura máxima da caixa de resultados */
+    height: 50vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /*Adiciona rolagem vertical se necessário */
-    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    margin-top: 0.7rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
     color: #FFF5E4;
@@ -147,8 +147,8 @@ footer {
     }
 
     .resultados-pesquisa {
-        width: 90%; /* Largura da caixa de resultados em telas menores */
-        /*height: 40vh;  Altura da caixa de resultados em telas menores */
+        width: 40rem; /* Largura da caixa de resultados em telas menores */
+        
     }
 
     .item-resultado h2 {
@@ -158,12 +158,13 @@ footer {
 
 @media (max-width: 670px){
     .resultados-pesquisa {
-        width: 40rem; /* Largura da caixa de resultados em telas pequenas */
+        width: 35rem; /* Largura da caixa de resultados em telas pequenas */
+        height: 35vh;   /*Altura da caixa de resultados em telas menores  */ */
     }
 }
 
 /* Responsividade para celulares */
-@media (max-width: 480px) {    
+@media (max-width: 560px) {    
 
     h1 {
         font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
@@ -180,7 +181,7 @@ footer {
     }
 
     .resultados-pesquisa {
-        width: 90%; /* Largura da caixa de resultados em telas pequenas */
+        width: 30rem; /* Largura da caixa de resultados em telas pequenas */
         height: 50vh; /* Altura da caixa de resultados em telas pequenas */
     }
 
@@ -193,12 +194,22 @@ footer {
     }
 }
 
-@media (max-width: 380px){
+@media (max-width: 480px){
+
+    .resultados-pesquisa {
+        width: 25rem; /* Largura da caixa de resultados em telas pequenas */
+        height: 40vh; /* Altura da caixa de resultados em telas pequenas */
+    }
+
     footer p {
         padding: 0 1rem;
         font-size: 0.7rem; 
     }
 }
 
-
-
+@media (max-width: 380px){
+    .resultados-pesquisa {
+        width: 20rem; /* Largura da caixa de resultados em telas pequenas */
+        height: 40vh; /* Altura da caixa de resultados em telas pequenas */
+    }
+}
