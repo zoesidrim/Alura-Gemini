@@ -19,8 +19,8 @@ body {
     justify-content: center; /* Centraliza os itens verticalmente */
     height: 100%;
     min-height: 100vh;
-    overflow-y: hidden;
-    overscroll-behavior: none;
+    /* overflow-y: hidden;
+    overscroll-behavior: none; */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
 }
@@ -73,7 +73,7 @@ section button:hover {
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 50vh; /* Altura máxima da caixa de resultados */
+    height: 25rem; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /*Adiciona rolagem vertical se necessário */
     margin-top: 0.7rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
@@ -124,8 +124,9 @@ footer {
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
     font-size: 1rem; /* Tamanho da fonte */
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    margin-top: auto;
+    /* bottom: 0; */
 }
 
 @media (max-width: 990px){
