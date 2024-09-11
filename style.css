@@ -20,7 +20,7 @@ body {
     height: 100%;
     min-height: 100vh;
     overflow-y: hidden;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     overscroll-behavior: none;
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
@@ -132,7 +132,7 @@ footer {
 @media (max-width: 990px){
   
     .resultados-pesquisa {
-    width: 95%; /* Largura da caixa de resultados em telas pequenas */
+    width: 50rem; /* Largura da caixa de resultados em telas pequenas */
     } 
 }
 
@@ -159,7 +159,7 @@ footer {
 
 @media (max-width: 670px){
     .resultados-pesquisa {
-        width: 90%; /* Largura da caixa de resultados em telas pequenas */
+        width: 40rem; /* Largura da caixa de resultados em telas pequenas */
     }
 }
 
