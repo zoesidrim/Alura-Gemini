@@ -196,6 +196,7 @@ footer {
 @media (max-width: 380px){
     footer p {
         padding: 0 1rem;
+        font-size: 0.7rem; 
     }
 }
 
