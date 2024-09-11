@@ -28,13 +28,13 @@ function pesquisar(){
             </div>
             `
        } 
-
-       if (!resultados){
-        resultados = "Nenhum cantor foi encontrado"
-       }
     }
-        
+
+    if (!resultados){
+        resultados = "Nenhum cantor foi ENCONTRADO"
+    } 
+    
     section.innerHTML = resultados;
-        
+     
 }
 
