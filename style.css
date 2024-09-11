@@ -117,9 +117,18 @@ footer {
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
     font-size: 1rem; /* Tamanho da fonte */
+    position: absolute;
+    bottom: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px){
+  
+    .resultados-pesquisa {
+    width: 50rem; /* Largura da caixa de resultados em telas pequenas */
+    } 
+}
+
+@media (max-width: 821px) {
     h1 {
         font-size: 2rem; /* Tamanho da fonte em telas menores */
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
@@ -131,7 +140,7 @@ footer {
     }
 
     .resultados-pesquisa {
-        width: 40rem; /* Largura da caixa de resultados em telas menores */
+        width: 95%; /* Largura da caixa de resultados em telas menores */
         height: 40vh; /* Altura da caixa de resultados em telas menores */
     }
 
@@ -140,7 +149,7 @@ footer {
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 670px){
     .resultados-pesquisa {
         width: 90%; /* Largura da caixa de resultados em telas pequenas */
         height: 50vh; /* Altura da caixa de resultados em telas pequenas */
