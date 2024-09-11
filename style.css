@@ -125,6 +125,7 @@ footer {
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
     font-size: 1rem; /* Tamanho da fonte */
+    margin-top: 2rem;
     position: absolute;
     bottom: 0;
 }
