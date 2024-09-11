@@ -5,15 +5,17 @@
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
     background-color: #DDDDDD; /* Cor de fundo da página */
-    /* background-image: url('./assets/kevin-mccutcheon-TcSckNRL9J8-unsplash.jpg');
+    background-image: url('./assets/kevin-mccutcheon-TcSckNRL9J8-unsplash.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100%;
     min-height: 100vh;
+    overflow-x: hidden;
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
 }
